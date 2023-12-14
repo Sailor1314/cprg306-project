@@ -1,13 +1,12 @@
 import Link from "next/link";
-import MyComp from "./StudentInfo";
+import Quiz from "./project/quiz";
 
-export default function Home() 
+export default function Home() {
   return (
-    <main>
-      <h1 className="text-[50px] font-bold">CPRG 306: Web Development 2 - Assignments</h1>
-      <MyComp />
-      <ul>
-        <li><Link href="project">Project</Link></li>
-      </ul>
+    <main className="min-h-screen m-10">
+      <h1 className="text-[50px] font-bold">CPRG 306: Project</h1>
+      <Quiz />
+
     </main>
   );
+};

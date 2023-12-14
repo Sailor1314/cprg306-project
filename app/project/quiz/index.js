@@ -1,3 +1,5 @@
+"use client"
+
 // pages/index.js
 import React, { useState } from 'react';
 import quizData from '../quizData.json';
@@ -7,7 +9,7 @@ import { useRouter } from 'next/router';
 const Quiz = () => {
     const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
     const [score, setScore] = useState(0);
-    const router = useRouter();
+    // const router = useRouter();
 
     const handleAnswer = (answer) => {
         if (answer === quizData[currentQuestionIndex].answer) {
