@@ -25,7 +25,7 @@ const Quiz = () => {
 
     return (
         <div>
-            <h1>Quiz App</h1>
+            <h1 className='flex flex-col items-center justify-center text-2xl font-bold mt-5'>Quiz App</h1>
             <QuizQuestion 
                 question={quizData[currentQuestionIndex].question} 
                 options={quizData[currentQuestionIndex].options} 

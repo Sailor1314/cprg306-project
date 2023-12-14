@@ -1,9 +1,9 @@
 import Link from 'next/link';
 
 const Home = () => (
-  <div>
+  <div className='flex flex-col items-center justify-center'>
     <h1>Welcome to My Portfolio</h1>
-    <p>I am [Your Name], a [Your Profession/Title].</p>
+    <p>I am Sailor, a Software Development Student.</p>
     <nav>
       <Link href="/about">About Me</Link>
       <Link href="/projects">Projects</Link>
